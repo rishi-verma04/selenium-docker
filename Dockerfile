@@ -1,4 +1,4 @@
-hiFROM openjdk:8u191-jre-alpine3.8
+gitFROM openjdk:8u191-jre-alpine3.8
 
 RUN apk add curl jq
 #  Workspace 
