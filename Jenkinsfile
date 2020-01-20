@@ -20,7 +20,7 @@ pipeline {
                     //sh
 			        sh "docker login --username=${user} --password=${pass}"
 			        sh "docker push rishiyudi04/selenium-docker:${BUILD_NUMBER}"
-			        sh "docker push rishiyudi04/selenium-docker:latest"
+
 			    }
             }
         }
