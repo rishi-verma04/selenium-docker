@@ -19,7 +19,7 @@ pipeline {
 			    withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'pass', usernameVariable: 'user')]) {
                     //sh
 			        sh "docker login --username=${user} --password=${pass}"
-			        sh "docker push rishiyudi04/selenium-docker:latest"
+			        sh "docker push rishiyudi04/selenium-docker:${BUILD_NUMBER}""
 			    }
             }
         }
