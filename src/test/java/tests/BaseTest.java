@@ -20,8 +20,8 @@ public class BaseTest {
     public void setupDriver(ITestContext ctx) throws MalformedURLException {
 
         // For Running locally in Chrome Browser
-      // System.setProperty("webdriver.chrome.driver","/Users/rishi.verma/Downloads/chromedriver") ;
-       // this.driver= new ChromeDriver() ;
+     // System.setProperty("webdriver.chrome.driver","/Users/rishi.verma/Downloads/chromedriver") ;
+      //this.driver= new ChromeDriver() ;
 
         //*********************************//
 
